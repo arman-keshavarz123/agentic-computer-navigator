@@ -1,4 +1,4 @@
-# Nova: MacOS Voice Automation Agent
+# Nova: MacOS Voice + Hand Signal Automation Agent
 
 Nova is a sophisticated Python-based automation agent designed for MacOS. It combines speech recognition with **Anthropic's Claude 3.5 Sonnet (Computer Use API)** to "see" your screen and control your mouse and keyboard to execute complex tasks via voice commands.
 
@@ -23,6 +23,13 @@ To give a command, simply speak clearly:
 > *"Nova, open Terminal, list the files in the Documents folder, and tell me what you see."*
 >
 > *"Nova, move that window to the left side of the screen."*
+
+### Hand Gestures 
+To start vison module, simple close your fist:
+> Make Peace symbol: Opens a new tab
+> Make Shaka symbol: Close tab
+> Point Index finger up: Open up last closed tab
+To interrupt vision module, open palm to camera 
 
 ### Interruption
 If the agent is in the middle of a long task or misunderstands a command, you can cut it off immediately by saying "NOVA!" 
